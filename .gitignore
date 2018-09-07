@@ -13,6 +13,7 @@
 
 # Compiled Dynamic libraries
 *.so
+!libodbcHDB.so
 *.dylib
 *.dll
 
@@ -24,9 +25,11 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.swp
+build
+*.cache
