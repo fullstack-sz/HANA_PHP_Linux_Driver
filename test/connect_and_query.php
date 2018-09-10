@@ -15,7 +15,7 @@ $tableName = 'PHP_TEST';
 $query = "drop TABLE $tableName;";
 $stmt = hdb_query($conn, $query);
 if($stmt === false) {
-    die(print_r(hdb_errors(), true));
+    //die(print_r(hdb_errors(), true));
 
 }
 $query = "CREATE TABLE $tableName (A int, B NVARCHAR(20))";
