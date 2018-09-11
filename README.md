@@ -27,3 +27,6 @@ Under /test directory connect_and_query.php contains basic functions sample incl
  * hdb_errors
  * hdb_free_stmt
  * hdb_close
+
+## License
+The Drivers for SAP HANA are licensed under the MIT license. See the LICENSE file for more details.
