@@ -6,6 +6,7 @@ rely on the HANA ODBC driver to handle the low-level communication.
 ## Prerequisites
 Install PHP on your Linux env:
 * install php and php-devel, make sure the php version is 7.*.
+
 Configure odbc library:
 * install HANA client, configure path /usr/sap/hdbclient to environment parameter LD_LIBRARY_PATH and LIBRARY_PATH to make sure odbc shared library libodbcHDB.so can be used during run and compile.
 
