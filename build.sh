@@ -9,6 +9,5 @@ if [ -d "$build_dir" ]; then
     cd $build_dir
     #export LIBRARY_PATH="./common/odbc:$LIBRARY_PATH"
     phpize && ./configure
-    make
+    make && make install
 fi
-cp modules/hdb.so /home/miky/bin/lib/php/extensions/debug-zts-20170718/
