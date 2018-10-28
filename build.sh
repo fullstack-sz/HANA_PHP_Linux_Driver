@@ -1,5 +1,5 @@
 build_dir=build
-client_dir=/usr/sap/client
+client_dir=/usr/sap/hdbclient
 header_dir=/usr/sap/hdbclient/sdk/odbc/incl
 
 if [ ! -d "$client_dir" ]; then

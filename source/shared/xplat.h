@@ -17,6 +17,7 @@
 #include <errno.h>
 #include "common/odbc/sql.h"
 #include "common/odbc/sqlext.h"
+#include "common/odbc/sqltypes2.h"
 #include <stdarg.h>
 #include <cstdlib>
 #include <cstdio>
